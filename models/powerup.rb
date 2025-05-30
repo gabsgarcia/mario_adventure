@@ -30,10 +30,3 @@ class PowerUp
     # TODO: Return description
   end
 end
-
-# 🎯 TEACHING MOMENT: 
-# In Rails, this would inherit from ApplicationRecord:
-# class PowerUp < ApplicationRecord
-#   # Rails would handle attributes automatically from database
-#   # You'd add business logic methods here
-# end

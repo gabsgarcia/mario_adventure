@@ -86,19 +86,3 @@ class GameController
     # TODO: Check Mario's abilities and display them
   end
 end
-
-# 🎯 TEACHING MOMENT:
-# In Rails, this would be:
-# class GameController < ApplicationController
-#   def show
-#     @mario = current_user.mario
-#     @current_level = @mario.current_level
-#   end
-#   
-#   def collect_powerup
-#     @mario = current_user.mario
-#     @powerup = PowerUp.find(params[:id])
-#     @mario.collect_powerup(@powerup)
-#     redirect_to game_path
-#   end
-# end

@@ -70,14 +70,3 @@ class Mario
     # Small Mario: 🔴, Super Mario: 🟢, Fire Mario: 🔥, Star Mario: ⭐
   end
 end
-
-# 🎯 TEACHING MOMENT:
-# In Rails, this would be:
-# class Mario < ApplicationRecord
-#   has_many :collected_powerups
-#   has_many :powerups, through: :collected_powerups
-#   
-#   def total_points
-#     powerups.sum(:points)
-#   end
-# end

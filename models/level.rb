@@ -61,13 +61,3 @@ class Level
     # Hint: PowerUp.all_types.sample(rand(3..5))
   end
 end
-
-# 🎯 TEACHING MOMENT:
-# In Rails, this would be:
-# class Level < ApplicationRecord
-#   has_many :level_powerups
-#   has_many :powerups, through: :level_powerups
-#   
-#   scope :completed, -> { where(completed: true) }
-#   scope :in_progress, -> { where(completed: false) }
-# end
